@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<script>
+//    function Dog(name,age){
+//            this.name=name;
+//             this.age=age;
+//        this.run=function(){
+//            console.log(奔跑)
+//        }
+//    }
+//
+//    var  taidi= new Dog("泰迪",1);
+//    var zangao=new Dog("藏獒",5)
+//        zangao.run();
+
+    //计算任意数量值得和
+//    function count(){
+//        var result=0;
+//        for(var i=0; i<arguments.length;i++){
+//            result+=arguments[i];
+//        }
+//        console.log(result);
+//    }
+//    count(1,2,3,4,5,6,7,89,98);
+    //利用arguments模拟重载
+//    function fn(){
+//        if(arguments.length==1){
+//            console.log(arguments[0]);
+//        }else if(arguments.length==2){
+//            console.log(arguments[0]+arguments[1]);
+//        }
+//    }
+//    fn(100);
+//    fn(120,23);
+    function fn(a){
+        if(a==null){
+            throw "请输入正确的值";
+        }
+        console.log(a);
+    }
+    fn();
+</script>
+</body>
+</html>
